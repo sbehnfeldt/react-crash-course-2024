@@ -25,5 +25,6 @@ Create "components" directory under "src/" directory
 - Hero (passes props)
 - HomeCards (uses nested components)
 - Card (wrapper component, uses "children" prop for whatever is wrapped)
+- JobListing Component
 
 ## 
