@@ -32,3 +32,13 @@ Create "components" directory under "src/" directory
 ## State
 App State and component state
 Requires the "useState" hook
+```js
+let initialVal = 99;
+const [stateName, setStateName] = useState(initialVal);
+```
+
+## React Icons Package
+```shell
+$> npm i react-icons
+```
+Import an icon from react-icons/{subdirectory} and use as a component
