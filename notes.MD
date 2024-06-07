@@ -18,3 +18,6 @@ Install the dependencies, then setup tailwind config and (via the -p flag) a pos
 $> npm i -D tailwindcss postcss autoprefixer
 $> npx tailwindcss init -p
 ```
+
+## Navbar Components
+Create "components" directory under "src/" directory
