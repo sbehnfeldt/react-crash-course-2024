@@ -28,4 +28,7 @@ Create "components" directory under "src/" directory
 - JobListing component
 - JobListing component
 - ViewAllJobs button component
-## 
+
+## State
+App State and component state
+Requires the "useState" hook
