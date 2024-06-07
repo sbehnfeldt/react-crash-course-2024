@@ -80,4 +80,5 @@ export default App
 
 ### Jobs Page Component & Route
 Replacing <a> tags with <link> tags, to prevent full page reload
+Conditional rendering
 
