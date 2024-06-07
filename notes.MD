@@ -19,5 +19,11 @@ $> npm i -D tailwindcss postcss autoprefixer
 $> npx tailwindcss init -p
 ```
 
-## Navbar Components
+## Components
 Create "components" directory under "src/" directory
+- Navbar (imports an asset .svg file)
+- Hero (passes props)
+- HomeCards (uses nested components)
+- Card (wrapper component, uses "children" prop for whatever is wrapped)
+
+## 
