@@ -1,6 +1,7 @@
 # React Crash Course 2024
 A sing-along project with ["React Crash Course"](https://www.youtube.com/watch?v=LDB4uaJ87e0) 
 by [Traversy Media](https://www.youtube.com/@TraversyMedia)
+[Repository](https://github.com/bradtraversy/react-crash-2024)
 
 ## Scaffolding
 ```shell
@@ -9,4 +10,11 @@ $> cd .\react-crash-course-2024\
 $> npm i
 $> npm run dev
 $> git init .
+```
+
+## Tailwind
+Install the dependencies, then setup tailwind config and (via the -p flag) a postcss config file as well
+```shell
+$> npm i -D tailwindcss postcss autoprefixer
+$> npx tailwindcss init -p
 ```
