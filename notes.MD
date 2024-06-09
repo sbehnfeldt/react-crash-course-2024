@@ -109,3 +109,7 @@ $> npm i react-spinners
 
 Define a proxy in vite.config.js so that any URL that begins with '/api/'
 will be redirected to the json-server
+
+## Single Job Page
+
+Use a colon in route paths for wildcards 
