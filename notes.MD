@@ -89,3 +89,11 @@ Conditional rendering
 $> npm i -D json-serer
 $> npx json-server jobs.json
 ```
+
+### Fetching Jobs Data
+Fetch data from the json-server using standard `fetch()` function from within `useEffect()`
+useEffect() takes 2 parameters: function to execute when variables change, and array of variables to watch.
+If the function is async, it cannot be declared as such; 
+rather, a second, async, function must be called from inside the primary function.
+
+
