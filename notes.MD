@@ -82,3 +82,10 @@ export default App
 Replacing <a> tags with <link> tags, to prevent full page reload
 Conditional rendering
 
+## JSON Server
+
+### Setup
+```shell
+$> npm i -D json-serer
+$> npx json-server jobs.json
+```
