@@ -111,7 +111,14 @@ Define a proxy in vite.config.js so that any URL that begins with '/api/'
 will be redirected to the json-server
 
 ## Single Job Page
+
 Use a colon in route paths for wildcards.
 Get the ID for the job from the route using the `useParams` hook.
+
+### Data Loader
+
+Rewrite the Single Job page a second way. Instead of fetching the job from within the component,
+pass a data loader function to the component, and have the component use the data this loader fetches.
+(We defined the loader function in the component file, but this is not necessary.)
 
 
