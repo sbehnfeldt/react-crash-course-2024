@@ -123,3 +123,10 @@ Rewrite the Single Job page a second way. Instead of fetching the job from withi
 pass a data loader function to the component, and have the component use the data this loader fetches.
 (We defined the loader function in the component file, but this is not necessary.)
 
+## React Toastify
+
+Package for displaying splash messages
+
+```shell
+$> npm i react-toastify
+```
