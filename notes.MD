@@ -104,3 +104,8 @@ Ref: https://github.com/davidhu2000/react-spinners
 ```shell
 $> npm i react-spinners
 ```
+
+### API Proxy
+
+Define a proxy in vite.config.js so that any URL that begins with '/api/'
+will be redirected to the json-server
