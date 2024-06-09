@@ -111,5 +111,7 @@ Define a proxy in vite.config.js so that any URL that begins with '/api/'
 will be redirected to the json-server
 
 ## Single Job Page
+Use a colon in route paths for wildcards.
+Get the ID for the job from the route using the `useParams` hook.
 
-Use a colon in route paths for wildcards 
+
