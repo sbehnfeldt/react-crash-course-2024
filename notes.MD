@@ -41,7 +41,7 @@ App State and component state
 Requires the "useState" hook
 
 ```js
-let initialVal = 99;
+let initialVal                  = 99;
 const [stateName, setStateName] = useState(initialVal);
 ```
 
@@ -79,12 +79,14 @@ export default App
 ```
 
 ### Jobs Page Component & Route
+
 Replacing <a> tags with <link> tags, to prevent full page reload
 Conditional rendering
 
 ## JSON Server
 
 ### Setup
+
 ```shell
 $> npm i -D json-serer
 $> npx json-server jobs.json
@@ -120,5 +122,4 @@ Get the ID for the job from the route using the `useParams` hook.
 Rewrite the Single Job page a second way. Instead of fetching the job from within the component,
 pass a data loader function to the component, and have the component use the data this loader fetches.
 (We defined the loader function in the component file, but this is not necessary.)
-
 
